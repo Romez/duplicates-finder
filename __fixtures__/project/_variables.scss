@@ -1,0 +1,141 @@
+$white: #fff;
+$black: #000;
+$light-black: #101012;
+$blue: #1d79dd;
+$light-blue: #2afff2;
+
+$primary-light: #adadad;
+$primary: #4a4a4b;
+$primary-light-dark: #353639;
+$primary-dark: #292a2e;
+$primary-deep-dark: #222226;
+$primary-darkest: #1a1a1e;
+
+$secondary-light: #2979ff;
+$secondary: #2869ff;
+$secondary-dark: #234dcc;
+
+$text-main: #fff;
+$text-dark: #818183;
+
+$danger-light: #f05b33;
+$danger: #ec3200;
+
+$warning: #ff9500;
+
+$success: #48a902;
+
+$font-family-main: Roboto, sans-serif;
+
+$font-size-smallest: 7px;
+$font-size-smaller: 10px;
+$font-size-small: 12px;
+$font-size-regular: 14px;
+$font-size-big: 16px;
+$font-size-bigger: 20px;
+$font-size-biggest: 32px;
+
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+
+$breakpoints-mobile-m: 404px;
+$breakpoints-mobile-l: 589px;
+$breakpoints-tablet: 768px;
+$breakpoints-desktop: 1200px;
+
+$z-index-dropdown: 100;
+$z-index-sticky: 1020;
+$z-index-sidebar: 1025;
+$z-index-fixed: 1030;
+$z-index-modalBackdrop: 1040;
+$z-index-modal: 1050;
+$z-index-popover: 1060;
+$z-index-tooltip: 1070;
+$z-index-loading: 1080;
+
+$spinner-color: $primary;
+
+// ------------
+
+$transition: 0.3s ease;
+
+$bg-main: #000;
+$bg-block: #212121;
+$bg-block--hover: #393939;
+$bg-item--hover: #454545;
+$bg-modal: #121212;
+$bg-second: #565656;
+
+$bg-active: #ec3200;
+$bg-active-second: #ff9500;
+
+// ------------ text -----------
+$color-text: #999;
+$color-active: #fff;
+$color-text-second: #ccc;
+
+$font: 'Montserrat', Arial, sans-serif;
+$extra-font: 'Rubik', Arial, sans-serif;
+
+$error: $bg-active;
+
+// ---------------------------------  scroll -------------------------
+%scroll {
+  /* width */
+  &::-webkit-scrollbar {
+    width: 2px;
+    height: 2px;
+  }
+
+  /* Track */
+  &::-webkit-scrollbar-track {
+    border-radius: 2px;
+    background: rgba($color-text, 0.5);
+  }
+
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    background: $color-active;
+    border-radius: 2px;
+    margin: 0;
+  }
+
+  /* Handle on hover */
+  &::-webkit-scrollbar-thumb:hover {
+    background: $color-active;
+  }
+  // ---- end scroll ------
+
+  // ------- Firefox -------
+  scrollbar-color: $color-active;
+  scrollbar-width: thin;
+  // ----- END Firefox------
+}
+// ------ END scroll -------
+
+// ------------------------------------ catalog ---------------------------
+
+// count of games in a row
+$catalog-row-games: 2;
+$catalog-row-games--sm: 4;
+$catalog-row-games--md: 4;
+$catalog-row-games--lg: 7;
+$catalog-row-games--xl: 7;
+$catalog-row-games--xxl: 7;
+
+$catalog-column-gap: 8px;
+$catalog-column-gap--sm: 8px;
+$catalog-column-gap--md: 8px;
+$catalog-column-gap--lg: 8px;
+$catalog-column-gap--xl: 8px;
+$catalog-column-gap--xxl: 8px;
+
+$catalog-row-gap: 8px;
+$catalog-row-gap--sm: 8px;
+$catalog-row-gap--md: 8px;
+$catalog-row-gap--lg: 8px;
+$catalog-row-gap--xl: 8px;
+$catalog-row-gap--xxl: 8px;
+// ------ END catalog ----------
+

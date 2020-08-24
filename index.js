@@ -1,5 +1,5 @@
 // @ts-check
 
-import half from './src/half.js';
+import findDuplicates from './src/findDuplicates.js';
 
-export default half;
+export default findDuplicates;

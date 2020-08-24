@@ -1,0 +1,38 @@
+$screen-xs: 576px;
+$screen-sm: 768px;
+$screen-md: 960px;
+$screen-lg: 1248px;
+$screen-xl: 1632px;
+$screen-xxl: 1920px;
+
+$breackpoints: xs, sm, md, lg, xl, xxl;
+
+@mixin medialist($media) {
+  @if $media == main {
+    @content;
+  } @else if $media == xs {
+    @media (min-width: $screen-xs) {
+      @content;
+    }
+  } @else if $media == sm {
+    @media (min-width: $screen-sm) {
+      @content;
+    }
+  } @else if $media == md {
+    @media (min-width: $screen-md) {
+      @content;
+    }
+  } @else if $media == lg {
+    @media (min-width: $screen-lg) {
+      @content;
+    }
+  } @else if $media == xl {
+    @media (min-width: $screen-xl) {
+      @content;
+    }
+  } @else if $media == xxl {
+    @media (min-width: $screen-xxl) {
+      @content;
+    }
+  }
+}

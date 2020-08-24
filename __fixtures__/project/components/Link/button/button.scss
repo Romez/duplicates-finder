@@ -1,0 +1,20 @@
+@import '~test/components/Button/default/default';
+@import '~test/breakpoints';
+@import '~test/variables';
+
+$mainClass: '.link-btn';
+
+#{$mainClass} {
+  @extend .btn;
+
+  .danger {
+    color: $danger;
+  }
+}
+
+.main {
+  .link {
+    color: $blue;
+  }
+}
+
